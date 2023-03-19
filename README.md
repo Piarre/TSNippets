@@ -71,7 +71,7 @@ Exported class #2
 ```typescript
 class MyExportedClass {}
 
-export MyClass;
+export MyExportedClass;
 ```
 
 Default exported class #1
@@ -85,5 +85,5 @@ Default exported class #2
 ```typescript
 class MyDefaultExportedClass {}
 
-export default name;
+export default MyDefaultExportedClass;
 ```
