@@ -40,24 +40,22 @@
   },
   "Exported class #1": {
     "prefix": "ec",
-    "body": ["class ${1:name} {", "    ${2:}", "}", "", "export ${1:name};"]
+    "body": ["class ${1:name} {${2:}}", "", "export ${1:name};"]
   },
   "Exported class #2": {
     "prefix": "ec",
-    "body": ["export class ${1:name} {", "    ${2:}", "}"]
+    "body": ["export class ${1:name} {${2:}}"]
   },
   "Default exported class #1": {
     "prefix": "edc",
-    "body": [
-      "class ${1:name} {",
-      "    ${2:}",
-      "}",
-      "",
-      "export default ${1:name};"
-    ]
+    "body": ["class ${1:name} {${2:}}", "", "export default ${1:name};"]
   },
   "Default exported class #2": {
     "prefix": "edc",
-    "body": ["export default class ${1:name} {", "    ${2:}", "}"]
+    "body": ["export default class ${1:name} {${2:}}"]
+  },
+  "Class": {
+    "prefix": "cl",
+    "body": ["class ${1:name} {${2:}}"]
   }
 }
