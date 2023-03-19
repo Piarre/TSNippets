@@ -1,0 +1,63 @@
+{
+  "Interface": {
+    "prefix": "it",
+    "body": ["interface ${1:name} {${2:}}"],
+    "scope": "typescript",
+    "description": "A TypeScript interface."
+  },
+  "Type": {
+    "prefix": "ty",
+    "body": ["type ${1:name} = ${2:types};"],
+    "description": "A TypeScript type.",
+    "scope": "typescript"
+  },
+  "Function": {
+    "prefix": "f",
+    "body": ["function ${1:name}(${2:variable}: ${3:any}) {${4:}}"],
+    "description": "Function with return type."
+  },
+  "Export function": {
+    "prefix": "ef",
+    "body": ["export function ${1:name}(${2:variable}: ${3:any}) {${4:}}"],
+    "description": "Exported function with return type."
+  },
+  "Export default function": {
+    "prefix": "edf",
+    "body": [
+      "export default function ${1:name}(${2:variable}: ${3:any}) {${4:}}"
+    ],
+    "description": "Default exported function with return type."
+  },
+  "Typed constant": {
+    "prefix": "constt",
+    "body": ["const ${1:name}: ${2:any} = ${3:null};"],
+    "description": "Constant typed variable."
+  },
+  "Typed variable": {
+    "prefix": "vart",
+    "body": ["${1|let,var|} ${2:name}: ${3:any} = ${4:null};"],
+    "description": "Typed variable."
+  },
+  "Exported class #1": {
+    "prefix": "ec",
+    "body": ["class ${1:name} {", "    ${2:}", "}", "", "export ${1:name};"]
+  },
+  "Exported class #2": {
+    "prefix": "ec",
+    "body": ["export class ${1:name} {", "    ${2:}", "}"]
+  },
+  "Default exported class #1": {
+    "prefix": "edc",
+    "body": [
+      "class ${1:name} {",
+      "    ${2:}",
+      "}",
+      "",
+      "export default ${1:name};"
+    ]
+  },
+  "Default exported class #2": {
+    "prefix": "edc",
+    "body": ["export default class ${1:name} {", "    ${2:}", "}"]
+  }
+}
