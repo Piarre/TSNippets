@@ -1,9 +1,14 @@
 # Change Log
 
-All notable changes to the "piarre-s-snippets" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
 
 - Initial release
+
+## [1.0.1] - 2023-03-19
+
+### Added
+
+- Simple class snippet
+
+### Removed
+- Trailing space(s)/brake line(s)
