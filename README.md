@@ -1,6 +1,6 @@
-# Piarre's snippets
+# Piarre's snippetypescript
 
-Basic TypeScript snippets for me (or you).
+Basic TypeScript snippetypescript for me (or you).
 
 ## Features
 
@@ -8,25 +8,25 @@ Basic TypeScript snippets for me (or you).
 
 Typed constant
 
-```TS
+```typescript
 const MyConstant: any = null;
 ```
 
 Typed variable
 
-```TS
+```typescript
 let|var MyVariable: any = null;
 ```
 
 ### Interface
 
-```TS
+```typescript
 interface MyInterface {}
 ```
 
 ### Type
 
-```TS
+```typescript
 type MyType = any;
 ```
 
@@ -36,19 +36,19 @@ type MyType = any;
 
 Simple function
 
-```TS
+```typescript
 function MyFunction(param: any) {}
 ```
 
 Exported function
 
-```TS
+```typescript
 export function MyExportedFunction(parma: any) {}
 ```
 
 Default export function
 
-```TS
+```typescript
 default export function MyDefaultExportedFunction(parma: any) {}
 ```
 
@@ -56,19 +56,19 @@ default export function MyDefaultExportedFunction(parma: any) {}
 
 Simple class
 
-```TS
+```typescript
 class MyClass {}
 ```
 
 Exported class #1
 
-```TS
+```typescript
 export class MyExportedClass {}
 ```
 
 Exported class #2
 
-```TS
+```typescript
 class MyExportedClass {}
 
 export MyClass;
@@ -76,13 +76,13 @@ export MyClass;
 
 Default exported class #1
 
-```TS
+```typescript
 export default class MyDefaultExportedClass {}
 ```
 
 Default exported class #2
 
-```TS
+```typescript
 class MyDefaultExportedClass {}
 
 export default name;
