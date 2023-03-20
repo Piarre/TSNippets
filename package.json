@@ -2,7 +2,7 @@
   "name": "piarre-s-snippets",
   "displayName": "Piarre's snippets",
   "description": "Basic TypeScript snippets for me.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.76.0"
   },

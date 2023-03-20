@@ -1,42 +1,57 @@
 {
   "Interface": {
     "prefix": "it",
-    "body": ["interface ${1:name} {${2:}}"],
-    "scope": "typescript",
-    "description": "A TypeScript interface."
+    "body": ["interface ${1:name} {${2:}}"]
+  },
+  "Exported interface": {
+    "prefix": "ei",
+    "body": ["export interface ${1:name} {${2:}}"]
   },
   "Type": {
     "prefix": "ty",
-    "body": ["type ${1:name} = ${2:types};"],
-    "description": "A TypeScript type.",
-    "scope": "typescript"
+    "body": ["type ${1:name} = ${2:any};"]
+  },
+  "Exported type": {
+    "prefix": "et",
+    "body": ["export type ${1:name} = ${2:any};"]
   },
   "Function": {
     "prefix": "f",
-    "body": ["function ${1:name}(${2:variable}: ${3:any}) {${4:}}"],
-    "description": "Function with return type."
+    "body": ["function ${1:name}(${2:variable}: ${3:any}) {${4:}}"]
   },
   "Export function": {
     "prefix": "ef",
-    "body": ["export function ${1:name}(${2:variable}: ${3:any}) {${4:}}"],
-    "description": "Exported function with return type."
+    "body": ["export function ${1:name}(${2:variable}: ${3:any}) {${4:}}"]
   },
   "Export default function": {
     "prefix": "edf",
     "body": [
       "export default function ${1:name}(${2:variable}: ${3:any}) {${4:}}"
-    ],
-    "description": "Default exported function with return type."
+    ]
   },
   "Typed constant": {
     "prefix": "constt",
-    "body": ["const ${1:name}: ${2:any} = ${3:null};"],
-    "description": "Constant typed variable."
+    "body": ["const ${1:name}: ${2:any} = ${3:null};"]
+  },
+  "Exported typed constant": {
+    "prefix": "etc",
+    "body": ["export const ${1:name}: ${2:any} = ${3:null};"]
+  },
+  "Exported constant": {
+    "prefix": "ec",
+    "body": ["export const ${1:name} = ${3:null};"]
   },
   "Typed variable": {
     "prefix": "vart",
-    "body": ["${1|let,var|} ${2:name}: ${3:any} = ${4:null};"],
-    "description": "Typed variable."
+    "body": ["${1|let,var|} ${2:name}: ${3:any} = ${4:null};"]
+  },
+  "Exported typed variable": {
+    "prefix": "vart",
+    "body": ["export ${1|let,var|} ${2:name}: ${3:any} = ${4:null};"]
+  },
+  "Exported variable": {
+    "prefix": "vart",
+    "body": ["export ${1|let,var|} ${2:name} = ${4:null};"]
   },
   "Exported class #1": {
     "prefix": "ec",
