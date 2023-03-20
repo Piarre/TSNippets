@@ -3,6 +3,7 @@
   "displayName": "Piarre's snippets",
   "description": "Basic TypeScript snippets for me.",
   "version": "1.0.2",
+  "publisher": "Piarre",
   "engines": {
     "vscode": "^1.76.0"
   },

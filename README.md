@@ -12,10 +12,34 @@ Typed constant
 const MyConstant: any = null;
 ```
 
+Export typed constant
+
+```typescript
+export const MyConstant: any = null;
+```
+
+Export constant
+
+```typescript
+export const MyConstant = null;
+```
+
 Typed variable
 
 ```typescript
 let|var MyVariable: any = null;
+```
+
+Exported typed variable
+
+```typescript
+export let|var MyVariable: any = null;
+```
+
+Exported variable
+
+```typescript
+export let|var MyVariable = null;
 ```
 
 ### Interface
